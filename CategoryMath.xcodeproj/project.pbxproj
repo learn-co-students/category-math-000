@@ -13,6 +13,7 @@
 		58025F34C33F409AB9275D23 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837AB42A6D240DA8A07F5E3 /* FISAppDelegate.m */; };
 		7223E42619D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223E42519D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m */; };
 		F5858952A0174ED38C4595AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8BE8A3CB9436CA7983262 /* Images.xcassets */; };
+		F676F40F1DF7AEA800B9A369 /* NSNumber+FISMath.m in Sources */ = {isa = PBXBuildFile; fileRef = F676F40E1DF7AEA800B9A369 /* NSNumber+FISMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BD5ADB60AE1D46CEA8464E66 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		D4E3E72B46754A808AE13190 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01DC4B79C0D45F1A1950A78 /* CategoryMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CategoryMath-Info.plist"; sourceTree = "<group>"; };
+		F676F40D1DF7AEA800B9A369 /* NSNumber+FISMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FISMath.h"; sourceTree = "<group>"; };
+		F676F40E1DF7AEA800B9A369 /* NSNumber+FISMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMath.m"; sourceTree = "<group>"; };
 		FA12E0D3B199455C8186F671 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +80,8 @@
 			children = (
 				42D799B8830F4AF9A7936AAA /* FISAppDelegate.h */,
 				5837AB42A6D240DA8A07F5E3 /* FISAppDelegate.m */,
+				F676F40D1DF7AEA800B9A369 /* NSNumber+FISMath.h */,
+				F676F40E1DF7AEA800B9A369 /* NSNumber+FISMath.m */,
 				10F477D17DC0405CB9FE5612 /* Resources */,
 			);
 			path = CategoryMath;
@@ -315,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58025F34C33F409AB9275D23 /* FISAppDelegate.m in Sources */,
+				F676F40F1DF7AEA800B9A369 /* NSNumber+FISMath.m in Sources */,
 				29300D7F10354B1EBF39D169 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
